@@ -4,6 +4,8 @@ import {
   IconBrandInstagram,
   IconBrandTwitter,
   IconChevronDown,
+  IconChevronRight,
+  IconChevronsRight,
   IconRss,
 } from '@tabler/icons-react';
 import { AnnouncementProps, FooterProps, HeaderProps } from '../types';
@@ -37,10 +39,6 @@ export const headerData: HeaderProps = {
           href: '/pricing',
         },
         {
-          label: 'About us',
-          href: '/about',
-        },
-        {
           label: 'Contact us',
           href: '/contact',
         },
@@ -59,6 +57,32 @@ export const headerData: HeaderProps = {
       ],
     },
     {
+      label: 'About us',
+      href: '/about'
+    },
+    {
+      label: 'Programs',
+      icon: IconChevronDown,
+      links: [
+        {
+          label: 'Student Ambassadors',
+          href: '/ambassadors',
+        },
+        {
+          label: 'Biopieces',
+          href: '/biopieces',
+        },
+        {
+          label: 'Reports',
+          href: '/reports',
+        },
+        {
+          label: 'R-Guild',
+          href: '/rguild',
+        }
+      ]
+    },
+    {
       label: 'Blog',
       href: '/blog',
     },
@@ -69,8 +93,9 @@ export const headerData: HeaderProps = {
   ],
   actions: [
     {
-      text: 'Download',
-      href: 'https://github.com/onwidget/tailnext',
+      text: 'Join us',
+      icon: IconChevronsRight,
+      href: 'https://docs.google.com/forms/d/e/1FAIpQLScfV4A-YO48vcQ6BdioxCFUbF5b4Ifjt77atFQdNw7UkWZf_w/viewform',
       targetBlank: true,
     },
   ],

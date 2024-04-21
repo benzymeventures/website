@@ -6,8 +6,8 @@ addons.setConfig({
     base: 'light',
 
     // Logo
-    brandTitle: 'TailNext',
-    brandUrl: 'https://github.com/onwidget/tailnext',
+    brandTitle: 'Benzyme Ventures',
+    brandUrl: 'https://github.com/benzymeventures',
     brandTarget: '_blank',
   }),
 });

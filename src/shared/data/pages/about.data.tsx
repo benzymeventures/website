@@ -41,7 +41,7 @@ export const hero2About: HeroProps = {
   title: 'Great companies are made by great people',
   subtitle:
     'Vivamus venenatis, lectus a pellentesque placerat, felis tellus ultrices eros, et aliquam sapien nibh sed sem. Fusce ut ante eget purus viverra malesuada. Morbi eget mi maximus, ultricies urna eget, tristique lorem. Fusce cursus venenatis quam, a blandit lectus vulputate id. Praesent id interdum orci, vitae condimentum dui.',
-  tagline: 'About Us Demo Page',
+  tagline: 'Meet the People Behind Benzyme',
   callToAction: {
     text: 'View jobs',
     href: 'https://www.linkedin.com/',
@@ -53,7 +53,7 @@ export const hero2About: HeroProps = {
   },
   image: {
     src: hero2Img,
-    alt: 'Hero TailNext',
+    alt: 'Benzyme About Hero',
   },
 };
 

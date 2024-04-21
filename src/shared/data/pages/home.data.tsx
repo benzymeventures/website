@@ -6,6 +6,7 @@ import {
   IconBrandTwitter,
   IconBulb,
   IconCheck,
+  IconChevronsRight,
   IconClock,
   IconComponents,
   IconDownload,
@@ -41,35 +42,34 @@ import gasImg from '~/assets/images/gas.jpg';
 export const heroHome: HeroProps = {
   title: (
     <>
-      Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
-      <span className="sm:whitespace-nowrap">Tailwind CSS</span>
+      Welcome to Benzyme Ventures!
     </>
   ),
   subtitle: (
     <>
       <span className="hidden md:inline">
         <span className="font-semibold underline decoration-primary-600 decoration-wavy decoration-1 underline-offset-2">
-          TailNext
+          We
         </span>{' '}
-        is a production ready template to start your new website using <em>Next.js</em> + <em>Tailwind CSS</em>.
+        are a <em>community</em> of students, researchers, and entrepreneurs working together to advance the <em>bioeconomy</em>.
       </span>{' '}
-      It has been designed following Best Practices, SEO, Accessibility, Dark Mode, great Page Speed, image
-      optimization.
+      Our mission is to empower the next generation of scientists and entrepreneurs through education, innovation, and sustainable development.
+      Join us in creating a better future for all.
     </>
   ),
   callToAction: {
-    text: 'Get template',
-    href: 'https://github.com/onwidget/tailnext',
-    icon: IconDownload,
+    text: 'Join Us',
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLScfV4A-YO48vcQ6BdioxCFUbF5b4Ifjt77atFQdNw7UkWZf_w/viewform',
+    icon: IconChevronsRight,
     targetBlank: true,
   },
   callToAction2: {
     text: 'Learn more',
-    href: '/',
+    href: '/about',
   },
   image: {
     src: heroImg,
-    alt: 'Hero TailNext',
+    alt: 'Benzyme Hero Image',
   },
 };
 

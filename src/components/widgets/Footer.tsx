@@ -66,7 +66,6 @@ const Footer = () => {
               </li>
             ))}
           </ul>
-          {footNote}
         </div>
       </div>
     </footer>
