@@ -18,8 +18,8 @@ export const announcementData: AnnouncementProps = {
     href: 'https://nextjs.org/blog/next-14',
   },
   callToAction2: {
-    text: 'Follow @onWidget on Twitter',
-    href: 'https://twitter.com/intent/user?screen_name=onwidget',
+    text: 'Follow @benzymeventures on Twitter',
+    href: 'https://twitter.com/intent/user?screen_name=benzymeventures',
   },
 };
 
@@ -234,10 +234,10 @@ export const footerData: FooterProps = {
   footNote: (
     <div className="mr-4 text-sm dark:text-slate-400">
       <span className="float-left mr-1.5 h-5 w-5 rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)] bg-cover md:-mt-0.5 md:h-6 md:w-6"></span>
-      Made by{' '}
-      <a className="text-blue-600 hover:underline dark:text-gray-200" href="https://onwidget.com/">
+      Built by{' '}
+      <a className="text-blue-600 hover:underline dark:text-gray-200" href="https://aeviator.github.io">
         {' '}
-        onWidget
+        Aeviator
       </a>{' '}
       · All rights reserved.
     </div>
@@ -267,7 +267,7 @@ export const footerData2: FooterProps = {
     },
     {
       title: 'Email',
-      texts: ['Office: info@example.com', 'Site: https://example.com'],
+      texts: ['info@benzymeventures.org'],
     },
   ],
   socials: [
@@ -280,13 +280,13 @@ export const footerData2: FooterProps = {
   footNote: (
     <div className="mr-4 text-sm">
       <span className="float-left mr-1.5 h-5 w-5 rounded-sm bg-[url(https://onwidget.com/favicon/favicon-32x32.png)] bg-cover md:-mt-0.5 md:h-6 md:w-6"></span>
-      Made by{' '}
+      Built by{' '}
       <a
         className="font-semibold text-slate-900 dark:text-gray-200 hover:text-blue-600 hover:underline dark:hover:text-blue-600"
-        href="https://onwidget.com/"
+        href="https://aeviator.github.io/"
       >
         {' '}
-        onWidget
+        Aeviator
       </a>{' '}
       · All rights reserved.
     </div>
