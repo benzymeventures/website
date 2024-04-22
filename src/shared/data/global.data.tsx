@@ -263,7 +263,7 @@ export const footerData2: FooterProps = {
     },
     {
       title: 'Phone',
-      texts: ['Reception: +105 123 4567', 'Office: +107 235 7890'],
+      texts: ['+94 77 304 6791'],
     },
     {
       title: 'Email',

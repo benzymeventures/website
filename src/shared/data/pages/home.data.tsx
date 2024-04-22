@@ -616,22 +616,22 @@ export const contactHome: ContactProps = {
   items: [
     {
       title: 'Our Address',
-      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
+      description: ['Remotely Operated'],//['1230 Maecenas Street Donec Road', 'New York, EEUU'],
       icon: IconMapPin,
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
+      description: ['Mobile: +94 77 304 6791', 'Mail: info@benzymeventures.org'],
       icon: IconPhoneCall,
     },
     {
       title: 'Working hours',
-      description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
+      description: ['Monday - Saturday: 08:00 - 17:00'],
       icon: IconClock,
     },
   ],
   form: {
-    title: 'Ready to Get Started?',
+    title: 'Questions? We\'re happy to answer.',
     inputs: [
       {
         type: 'text',
