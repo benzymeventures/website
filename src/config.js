@@ -1,10 +1,10 @@
 module.exports.SITE = {
-  name: 'TailNext',
+  name: 'Benzyme Ventures',
 
-  origin: 'https://tailnext.vercel.app',
+  origin: 'https://benzymeventures.org',
   basePathname: '/',
   trailingSlash: false,
 
-  title: 'TailNext — Your website with Next.js + Tailwind CSS',
-  description: 'TailNext is a free and ready to start template to make your website using Next.js and Tailwind CSS.',
+  title: 'Benzyme Ventures',
+  description: 'We are a community of students, researchers, and entrepreneurs working together to advance the bioeconomy.',
 };
